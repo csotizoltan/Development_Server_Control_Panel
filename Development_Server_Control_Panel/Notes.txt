@@ -1,0 +1,156 @@
+﻿Development Server Control Panel v1.0
+
+--- title
+
+lbl_Title
+Development Server Control Panel
+Verdana 14
+Brown
+12; 17
+
+lbl_DevTitle
+Dev Server
+Verdana 8
+
+lbl_PortTitle
+Port
+
+lbl_LinkTitle
+Link
+
+
+--- devs
+
+lbl_Dev1
+lbl_Dev1
+Location: 14; 125
+
+lbl_Port1
+lbl_Port1
+Location: 420; 127
+
+lnk_Dev1
+lnk_Dev1
+LinkBehavior: HowerUnderline
+Location: 515; 127
+
+
+--- buttons
+
+btn_Dev1_Start
+Start
+Color: DarkSeaGreen
+Size: 75; 32
+Location: 195; 117
+
+btn_Dev1_Stop
+Stop
+Color: PaleVioletRed
+Size: 75; 32
+Location: 300; 117
+
+
+btn_Dev1_Start_Console
+Start in Console
+Color: LightSteelBlue
+Size: 170; 32
+Location: 740; 117
+
+
+--- listBox
+
+listBox_console
+Verdana 8
+Size: 893; 174
+Location: 17; 267
+
+
+
+
+--- How to stop a running process ---
+
+Close method can be used to stop a process
+proc.Close();
+
+CloseMainWindow can be used to request a stop
+proc.CloseMainWindow();
+
+Kill can be used to destroy the process
+proc.Kill();
+
+
+
+
+
+--- unused codes ----
+
+p.StartInfo.RedirectStandardOutput = true;
+p.StartInfo.CreateNoWindow = true;
+p.OutputDataReceived += DataReceived;
+p.Start();
+p.BeginOutputReadLine();
+
+
+startInfo.CreateNoWindow = true;
+startInfo.UseShellExecute = false;
+
+
+--- Database ---
+
+Tools --> NuGet Package Manager --> Manage NuGet Package for Sol>utions -- > Browse
+MySql.Data
+8.0.27
+
+
+--- Links ---
+
+c# run cmd with argument and close it in finish
+https://stackoverflow.com/questions/40264719/c-sharp-run-cmd-with-argument-and-close-it-in-finish
+
+redirect console output to text window in winform app
+https://stackoverflow.com/questions/34344162/redirect-console-output-to-text-window-in-winform-app
+
+Redirect console output to textbox in separate program
+https://stackoverflow.com/questions/415620/redirect-console-output-to-textbox-in-separate-program
+
+
+Is it possible to display a command window inside a windows form?
+https://stackoverflow.com/questions/3871424/is-it-possible-to-display-a-command-window-inside-a-windows-form
+
+Redirect console output to textbox in separate program
+https://stackoverflow.com/questions/415620/redirect-console-output-to-textbox-in-separate-program
+
+
+--- Ötletek ---
+
+"[App]: This is a log string"
+
+Where textBox1 is a Multi-line textbox with a black backcolor and blue foreground text.
+
+Passing the argument /K will force the command window to remain open
+
+
+
+
+--- Átnézni ---
+
+How to redirect the Console’s output to a TextBox in C#
+https://saezndaree.wordpress.com/2009/03/29/how-to-redirect-the-consoles-output-to-a-textbox-in-c/
+
+Curious as how to get a console inside of a windows form [duplicate]
+https://stackoverflow.com/questions/15080575/curious-as-how-to-get-a-console-inside-of-a-windows-form
+
+Embedding a DOS console in a windows form
+https://stackoverflow.com/questions/355724/embedding-a-dos-console-in-a-windows-form
+
+How to get the cmd command output in c# to a lable
+https://stackoverflow.com/questions/41355117/how-to-get-the-cmd-command-output-in-c-sharp-to-a-lable
+
+
+
+--- Icons ---
+
+https://iconarchive.com/show/small-n-flat-icons-by-paomedia/terminal-icon.html
+https://iconarchive.com/show/small-n-flat-icons-by-paomedia/terminal-icon.html
+https://iconarchive.com/show/flatwoken-icons-by-alecive/Apps-Terminal-Ssh-icon.html
+https://iconarchive.com/show/junior-icons-by-treetog/document-console-icon.html
